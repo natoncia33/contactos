@@ -37,6 +37,9 @@ class MessagesController extends Controller
     public function store(Request $request)
     {
         //
+        // DB::table('mensajes')->insert([
+        //     "nombre" => $request->input
+        // ])
     }
 
     /**
